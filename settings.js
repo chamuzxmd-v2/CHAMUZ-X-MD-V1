@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "HkxF2KiZ#J_KniunwrfQ8E-3GVUFtkCOCTNgfZQWfl3hoNhsaPzA",
+    SESSION_ID: process.env.SESSION_ID || "KnightBot!H4sIAAAAAAAAA5VVXbOiOBT8L3nVWkFBuFbdqgUU8QNFUEG39iFAwCifSUBwyv++hXfvzDzszt59C0mqT5/uPuEbyHJM0Qq1YPINFATXkKFuydoCgQlQqyhCBPRBCBkEE2DOxMX1NApcTohbh18/jPu2SDPTtxSabk0Ybu76YA2jWSq/g2cfFJWf4OAXgGMuMc9OrRU0Og8rz5s29grm5zUZ0JkLe8mxJSoXXazzbfcOnh0ixARn8ay4oBQRmKxQa0FMvka/mhY7hoZ6qZdtK+Mt3UT6zakWyejoiw85b+VadeXESA/c1+hbeWaPDskq56s5Oh9N0QobxS63cRR4aTmaKSPn4Y3KYO/cP+hTHGcoXIQoY5i1X9Y9NsNNubOH5dtjC93B5Zz09uf5gWvwGF3YelZrRlnm14Wlf1F373qxT5ziR61+x/GilpES1q508/JmNxeaPNvfp95g7ed6/jNxi3xm5fZ/dM/nWnE0zeUN7hpTWT7sVTifCpWjwrsiWyra58M0MY3t+Hj4Gn3xoIv35s2f7UNl5mrO0agV4cpY4HNlT4jUXrhRegPjzCvBD/qQVeRXLK9sW8tB4ZV2sRlbTDektUALypOhePLCqnk4SfuYhjRdwmrs7Rd7+OgdjajS4ltjqvVF5wel8oaYZHPmXhLG+xTn1/v7q6MbahchmPDPPiAoxpQRyHCedXsjuQ9gWDsoIIi91AXrk1J77aFcNXDaHtdLuJoJZKEhm6735QDx9VHaLHbOueR276APCpIHiFIUGpiynLQmohTGiILJH3/2QYYa9uHbqxrfBxEmlB2yqkhyGH6a+nkIgyCvMua0WaB1C0TAhPuxjRjDWUw7GasMkuCCa6RdIKNgEsGEou8NIoJCMGGkQt+HVsvDTndhubF2m6kB+iB9+YFDMAFvgiQL/FgayeJkzP1Of7t3qLAofssQA32QvG4NpTEnisJoOBaGkvS62R08vxPs8ELEIE4omABtTdxcEXYt1TYP5XRSsaKsFKUT7bOhz2B8KN9I0+m4vciZ3OyMsWBDhoXsDQ9W59obz3yGHgf/Ui099yb/E0jH0LNSyYy54ubnhoNN/c3LZoZrSjk3U0p6dWwreaxG7E6X1bBp9uuzM58bTiKjBbHbrRVoOh0caulijeo68PeKW62myntXLUQ1DtDPxRLX38SindSyZZJMnFM9aYfE7A2E284ul4bRk28CnvuuSo2tiNiUs7bTUWsluH0E6VZQfe7uQn2IihuZHz2x4a803n1E9jUyyd9PFX6lqbOq+4wwek1+BjsD/9O6D95dwLhn/yeIv5+SfxlHNUD3e4/m0XJgHtReNXPJqVoOTnWb+nzvMpc8ys8FHx/5wgLP5599UCSQRTlJwQTALCQ5DkEfkLzqErvIovwXxTR1sdCUWOsaTyBlyo8p2OMUUQbTAkx4SeKGvCSK3Mcti+SFAeml+xO4N1EFz78AndVkKFEHAAA=",
     CINESUB_API_KEY: process.env.CINESUB_API_KEY || "79653f59-d918-4a00-9143-bee74a6b4c82",
     PREFIX: process.env.PREFIX || ".", 
     BOT_NAME: process.env.BOT_NAME || "𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗",
@@ -50,3 +50,4 @@ module.exports = {
     version: process.env.version || "1.0.0",
     START_MSG: process.env.START_MSG || ``
 };
+
