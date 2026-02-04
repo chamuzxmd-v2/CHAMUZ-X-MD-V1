@@ -67,8 +67,8 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-  if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("HIRU-X-MD-", '')
+  if (!config.SESSION_ID) return console.log('KnightBot!H4sIAAAAAAAAA5VVXbOiOBT8L3nVWkFBuFbdqgUU8QNFUEG39iFAwCifSUBwyv++hXfvzDzszt59C0mqT5/uPuEbyHJM0Qq1YPINFATXkKFuydoCgQlQqyhCBPRBCBkEE2DOxMX1NApcTohbh18/jPu2SDPTtxSabk0Ybu76YA2jWSq/g2cfFJWf4OAXgGMuMc9OrRU0Og8rz5s29grm5zUZ0JkLe8mxJSoXXazzbfcOnh0ixARn8ay4oBQRmKxQa0FMvka/mhY7hoZ6qZdtK+Mt3UT6zakWyejoiw85b+VadeXESA/c1+hbeWaPDskq56s5Oh9N0QobxS63cRR4aTmaKSPn4Y3KYO/cP+hTHGcoXIQoY5i1X9Y9NsNNubOH5dtjC93B5Zz09uf5gWvwGF3YelZrRlnm14Wlf1F373qxT5ziR61+x/GilpES1q508/JmNxeaPNvfp95g7ed6/jNxi3xm5fZ/dM/nWnE0zeUN7hpTWT7sVTifCpWjwrsiWyra58M0MY3t+Hj4Gn3xoIv35s2f7UNl5mrO0agV4cpY4HNlT4jUXrhRegPjzCvBD/qQVeRXLK9sW8tB4ZV2sRlbTDektUALypOhePLCqnk4SfuYhjRdwmrs7Rd7+OgdjajS4ltjqvVF5wel8oaYZHPmXhLG+xTn1/v7q6MbahchmPDPPiAoxpQRyHCedXsjuQ9gWDsoIIi91AXrk1J77aFcNXDaHtdLuJoJZKEhm6735QDx9VHaLHbOueR276APCpIHiFIUGpiynLQmohTGiILJH3/2QYYa9uHbqxrfBxEmlB2yqkhyGH6a+nkIgyCvMua0WaB1C0TAhPuxjRjDWUw7GasMkuCCa6RdIKNgEsGEou8NIoJCMGGkQt+HVsvDTndhubF2m6kB+iB9+YFDMAFvgiQL/FgayeJkzP1Of7t3qLAofssQA32QvG4NpTEnisJoOBaGkvS62R08vxPs8ELEIE4omABtTdxcEXYt1TYP5XRSsaKsFKUT7bOhz2B8KN9I0+m4vciZ3OyMsWBDhoXsDQ9W59obz3yGHgf/Ui099yb/E0jH0LNSyYy54ubnhoNN/c3LZoZrSjk3U0p6dWwreaxG7E6X1bBp9uuzM58bTiKjBbHbrRVoOh0caulijeo68PeKW62myntXLUQ1DtDPxRLX38SindSyZZJMnFM9aYfE7A2E284ul4bRk28CnvuuSo2tiNiUs7bTUWsluH0E6VZQfe7uQn2IihuZHz2x4a803n1E9jUyyd9PFX6lqbOq+4wwek1+BjsD/9O6D95dwLhn/yeIv5+SfxlHNUD3e4/m0XJgHtReNXPJqVoOTnWb+nzvMpc8ys8FHx/5wgLP5599UCSQRTlJwQTALCQ5DkEfkLzqErvIovwXxTR1sdCUWOsaTyBlyo8p2OMUUQbTAkx4SeKGvCSK3Mcti+SFAeml+xO4N1EFz78AndVkKFEHAAA=')
+  const sessdata = config.SESSION_ID.replace("SASA-X-MD-", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -123,16 +123,16 @@ async function connectToWA() {
           console.log('✔ Plugins installed successfully ✅')
           console.log('🪀 Bot connected to WhatsApp 📲')
 
-          let up = `*◄●●━━𝗛𝗜𝗥𝗨 𝗫 𝗠𝗗 𝗩𝟭━━●●►*
+          let up = `*◄●●━━𝗦𝗔𝗦𝗔 𝗫 𝗠𝗗 𝗩𝟭━━●●►*
 
-☘️ *𝘏𝘪𝘳𝘶 𝘟 𝘔𝘥 𝘝1 𝘉𝘰𝘵...!*
+☘️ *Sasa 𝘟 𝘔𝘥 𝘝1 𝘉𝘰𝘵...!*
 ☘️ *𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘦𝘥 𝘚𝘶𝘤𝘤𝘦𝘴𝘴𝘧𝘶𝘭𝘭𝘺...!*
 
 🍬 *𝘚𝘱𝘦𝘤𝘪𝘢𝘭𝘺 𝘛𝘩𝘢𝘯𝘬𝘴 𝘍𝘰𝘳 𝘠𝘰𝘶...!*
 🍬 *𝘉𝘦𝘤𝘢𝘶𝘴𝘦  𝘉𝘰𝘵 𝘋𝘦𝘱𝘭𝘰𝘺𝘦𝘥 𝘠𝘰𝘶...!*
 
 🪀 *𝘛𝘩𝘦 𝘞𝘰𝘳𝘭𝘥 𝘉𝘦𝘴𝘵 𝘞𝘩𝘢𝘵𝘴𝘢𝘱𝘱...!*
-🪀 *𝘔𝘢𝘪𝘯 𝘉𝘰𝘵 𝘏𝘪𝘳𝘶 𝘟 𝘔𝘥...!*
+🪀 *𝘔𝘢𝘪𝘯 𝘉𝘰𝘵 Sasa 𝘟 𝘔𝘥...!*
 
 🌸 *𝘉𝘰𝘵 𝘏𝘢𝘴 𝘔𝘢𝘯𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴...!*
 🌸 *𝘛𝘺𝘱𝘦 𝘊𝘰𝘮𝘮𝘢𝘯𝘥 𝘈𝘯𝘥 𝘌𝘯𝘫𝘰𝘪...!*
@@ -141,15 +141,15 @@ async function connectToWA() {
 👀 *𝘠𝘰𝘶𝘳 𝘍𝘳𝘪𝘦𝘯𝘥𝘴...!*
 
 🥷 *𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘖𝘸𝘯𝘦𝘳...↓*
-➥  *✆* *+94702529242*
+➥  *✆* *+94784167385*
 
 > 𝙄 𝘼𝙈 𝙃𝙄𝙍𝙐 𝙓 🥷🎀`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/yokkg8.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/V0NSccpx/fcd85e08604d.png` }, caption: up })
 
-          const channelJid = "120363418953677198@newsletter"
+          const channelJid = "120363423242444810@newsletter"
           try {
             await conn.newsletterFollow(channelJid)
-            console.log(`SUCCESSFULLY FOLLOWED HIRU OFC CHANNEL ✅`)
+            console.log(`SUCCESSFULLY FOLLOWED SASA X MD OFC CHANNEL ✅`)
           } catch (error) {
             console.error(`Failed to follow channel: ${error}`)
           }
@@ -847,7 +847,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("LITE-XD STARTED ✅");
+  res.send("SASA-X-MD-STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
